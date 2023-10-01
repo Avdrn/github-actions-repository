@@ -45,7 +45,7 @@ These are the steps you can follow to complete this workshop (order is important
 
 - [Prerequisites](docs/00-prerequisites.md)
 - [Lab 1 - Local development workflow](docs/01-local-development.md)
-- [Lab 2 - Create a hello-world pipeline](docs/02-running-your-first-github-action.md)
+- [Lab 2 - Creating a hello-world pipeline](docs/02-running-your-first-github-action.md)
 - [Lab 3 - Continuous integration: Testing the application](docs/03-adding-test-to-the-pipeline.md)
 - [Lab 4 - Continuous integration: Building and packaging the application](docs/04-building-and-packaging-the-application.md)
 - [Lab 5 - Continuous delivery: Deploying the application to an environment](docs/05-deploying-to-an-environment.md)

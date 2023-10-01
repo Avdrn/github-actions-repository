@@ -1,6 +1,6 @@
 # Lab 2: Creating our first Github Workflow
 
-### Let's build a CI/CD pipeline using Github Actions
+### Let's build a 'hello-world' pipeline using Github Actions
 
 The goal of this tutorial is to understand the basic use of Github Actions and get familiar with the concepts around it.
 

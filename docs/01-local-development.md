@@ -1,16 +1,19 @@
 # Lab 1: Local development workflow
 
 ## 1.1 Installing the application dependencies
-Once forked, you can navigate to the repository on your computer and install all project dependencies using:
-
+Once you've forked and cloned this repository, you can navigate to the application on your computer:
 ```sh
-cd github-actions-codewomen-workshop
+cd ~/<path-where-you-cloned-the-repo>/github-actions-codewomen-workshop
+```
+ and install all project dependencies using:
+```sh
 npm install
 ```
 
 ## 1.2 Let's try our local development workflow
 
- `npm`, which is used in this workshop as a build tool, allows you to define automated build tasks in the package.json file. In this file you can see some build tasks already defined:
+[NPM](https://docs.npmjs.com/about-npm), which we'll use in this tutorial as our build tool, allows you to define automated build tasks in the package.json file.   
+In this file you can see some build tasks already defined:
 
 ```javascript
   "scripts": {
@@ -26,7 +29,7 @@ To build the app, we can just simple tell `npm `to do so.
 npm run build
 ```
 
-Our team is very professional and has written some unit tests to make sure we can refactor the application if needed. Lets make sure all of them are passing:
+This app contains some unit tests. Lets make sure all of them are passing:
 
 ```sh
 npm run test

@@ -1,10 +1,10 @@
-# Lab 2: Creating our first G
+# Lab 2: Creating our first Github Workflow
 
-### GitHub Actions to create a CI/CD pipeline
+### Let's build a CI/CD pipeline using Github Actions
 
 The goal of this tutorial is to understand the basic use of Github Actions and get familiar with the concepts around it.
 
-The first step in the process of creating our **CI/CD pipeline** is to create a **GitHub Workflow**. Wait, what is a pipeline again, and what is a Github Workflow?    
+The first step in the process of creating our first **CI/CD pipeline** is to create a **GitHub Workflow**. Wait, what is a pipeline again, and what is a Github Workflow?    
 * A pipeline is a generic term referring to the entire automated process of software development
 * whereas GitHub Workflow can be described as a set of instructions or a series of steps that automate processes in your software development projects on GitHub. These processes can include **building your code, running tests, and deploying your application** in the case of a pipeline (but you could also use Github workflows for other cases, like data backup, dependency update notifications, etc.).
 

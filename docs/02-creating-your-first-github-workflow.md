@@ -58,13 +58,15 @@ GitHub Actions anatomy:
   
 ### Let's test our Pipeline
 
-Once the changes are commited the pipeline should run automatically as especified to run on push.
+Once the changes are commited, the pipeline should run automatically as especified to run on push:
 
 ```bash
 git add .
 git commit -m "Add workflow file"
 git push
 ```
+
+Now open you Github repo in the browser, click on the Actions tab and check the pipeline execution. It should look like this:
 
 
 ## Lab checklist

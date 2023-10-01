@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# CodeWomen workshop - Automate your deployment process with Github Actions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This tutorial will guide you through the process of setting up a deployment pipeline with Github Actions from scratch, and help you grasp continuous integration and continuous delivery concepts (CI/CD) practically.
 
-## Available Scripts
+Each exercise introduces a new CI/CD concept and adds a new step to the pipeline. The initial exercises will help you understand the tools and how to create a pipeline using Github Actions. By completing all the exercises, you'll have a fully functional pipeline and a strong foundation in applying CI/CD principles to your projects.
 
-In the project directory, you can run:
+&nbsp; &nbsp; 
 
-### `npm start`
+## Who is it for?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This tutorial is designed for programming students and junior developers or beginners in CI/CD, who want to learn by doing and understand continuous delivery concepts and pipeline automation through hands-on practice.    
+You don't need to have any previous experience in CI/CD but basic knowledge of Github commands is recommended.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+&nbsp; &nbsp; 
 
-### `npm test`
+## Getting Started 🚀
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Anything you need for this workshop is contained within this repository - so the first thing you need to do is get a copy of it! If you are new to Github, you can learn how to **fork** it and **clone** it [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
+2. Make sure you review the [pre-requisites section](#pre-requisites) below to make sure that you have everything we need installed
+3. Start by building and running the application following the steps in the [application setup section](#application-setup)
+4. Get started with exercise 1!
 
-### `npm run build`
+### Pre-requisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This tutorial uses [npm](https://www.npmjs.com/) (Node Package Manager) as a build tool. Before you can run this project, you will need to:   
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 1. Have `Node.js` installed in your computer
+First check whether it is installed or not by running:
+```
+node -v
+```
+  - If Node.js is installed, this command will return the version number of Node.js that is installed on your system. 
+  - If Node.js is not installed, the command will not be recognized, and you'll likely see an error message indicating that the command is not found. You can find instructions on [how to install Node.js](https://nodejs.org/en/download/) on the official website. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 2. Download the latest version of `npm` on the command line
+Same as before, you can first check if `npm` is installed by typing:
+```
+npm -v
+```
+- This command will return the version number of npm if it is installed on your system
+- If you get an error indicating that the 'npm' command is not found, you can install `npm` by running the following command:
+```
+npm install -g npm
+```
+Re-run the previous command to check that it is now working:
+```
+npm -v
+```
 
-### `npm run eject`
+### Application Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The **XXX** application is a [React](https://reactjs.org/)-Application bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and tested with React Testing Library.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Installing the application dependencies
+Once forked, you can navigate to the repository on your computer and install all project dependencies using:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+cd github-actions-codewomen-workshop
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+After that, you can start it in development mode to have a look at it:
 
-## Learn More
+```sh
+npm start
+```
+and then open http://localhost:3000 to check our web app. The page will reload when you make changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Other useful commands
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Description                                               | Command         |
+| --------------------------------------------------------- | --------------- |
+| Builds the app for production to the `build` folder.      | `npm run build` |
+| Run Unit Tests with                                       | `npm run test`  |
+| Lint the Code with [ESLint](https://eslint.org/)          | `npm run lint`  |
 
-### Code Splitting
+&nbsp; &nbsp; 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Resources - Learn More about CI/CD and Github Actions
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Continue practicing with this [Github Actions workshop](https://github.com/actions-workshop/actions-workshop)

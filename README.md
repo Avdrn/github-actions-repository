@@ -36,7 +36,7 @@ The **XXX** application is a [React](https://reactjs.org/)-Application bootstrap
 1. Anything you need for this workshop is contained within this repository - so the first thing you need to do is get a copy of it! If you are new to Github, you can learn how to **fork** it and **clone** it [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
 2. Make sure you start by the [Prerequisites section](docs/00-prerequisites.md) to make sure that you have everything we need installed
 3. Run and build the React application following the instructions to [setup your application locally](docs/01-local-development.md) (lab 1)
-4. Understand the basic use of GitHub Actions by [creating your first pipeline](docs/02-running-your-first-github-action.md) (lab 2)
+4. Understand the basic use of GitHub Actions by [creating your first pipeline](docs/02-creating-your-first-github-workflow.md) (lab 2)
 5. Continue by creating a set of GitHub Actions workflows in order to [test](docs/03-adding-test-to-the-pipeline.md) (lab3), [release](docs/04-building-and-packaging-the-application.md) (lab 4) and [deploy](docs/05-deploying-to-an-environment.md) (lab 5) the application!
 
 
@@ -45,7 +45,7 @@ These are the steps you can follow to complete this workshop (order is important
 
 - [Prerequisites](docs/00-prerequisites.md)
 - [Lab 1 - Local development workflow](docs/01-local-development.md)
-- [Lab 2 - Creating a hello-world pipeline](docs/02-running-your-first-github-action.md)
+- [Lab 2 - Creating a hello-world pipeline](docs/02-creating-your-first-github-workflow.md)
 - [Lab 3 - Continuous integration: Testing the application](docs/03-adding-test-to-the-pipeline.md)
 - [Lab 4 - Continuous integration: Building and packaging the application](docs/04-building-and-packaging-the-application.md)
 - [Lab 5 - Continuous delivery: Deploying the application to an environment](docs/05-deploying-to-an-environment.md)

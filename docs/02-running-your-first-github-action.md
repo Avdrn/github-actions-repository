@@ -1,13 +1,14 @@
-# Lab 2: Running your first Github Action
+# Lab 2: Creating our first pipeline
 
 ### GitHub Actions to create a CI/CD pipeline
 
-The goal of this tutorial is to understand the basic use of Github Actions creating our first CI/CD pipeline.
+The goal of this tutorial is to understand the basic use of Github Actions and get familiar with the concepts around it.
 
-The first step is to create a GitHub Workflow. Wait, what is a Github Workflow?    
-Imagine GitHub Workflow as a set of instructions or a series of steps that automate processes in your software development projects on GitHub. These processes can include building your code, running tests, and deploying your application.
+The first step in the process of creating our **CI/CD pipeline** is to create a **GitHub Workflow**. Wait, what is a pipeline again, and what is a Github Workflow?    
+* A pipeline is a generic term referring to the entire automated process of software development
+* whereas GitHub Workflow can be described as a set of instructions or a series of steps that automate processes in your software development projects on GitHub. These processes can include **building your code, running tests, and deploying your application** in the case of a pipeline (but you could also use Github workflows for other cases, like data backup, dependency update notifications, etc.).
 
-Ok! Now, let's get started. 
+Ok! Now let's create a Github Workflow, which we will need to setup our pipeline and automate the deployment of our application. 
 
 Open a terminal from the root of our project directory and create the following folder structure by running:
 
@@ -49,7 +50,8 @@ jobs:
 - **_Jobs_**: Here we are specifying the job we want to run, in this case, we are setting up a build job.
 - **_Runs-on_**: is specifying the OS you want your workflow to run on.
 - **_Steps_**: Steps just indicate the various steps you want to run on that job.
-
+- **_Actions_**: An action is a task or set of procedures that can be executed within a step
+  
 ### Let's test our Pipeline
 
 Once the changes are commited the pipeline should run automatically as especified to run on push.

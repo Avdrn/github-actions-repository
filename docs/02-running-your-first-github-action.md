@@ -1,8 +1,8 @@
-# Lab 2: Running your first Github Action to create a CI/CD pipeline
+# Lab 2: Running your first Github Action
 
 ### GitHub Actions to create a CI/CD pipeline
 
-The goal of this tutorial is to understand the basic use of Github Actions creating a hello world pipeline.
+The goal of this tutorial is to understand the basic use of Github Actions creating our first CI/CD pipeline.
 
 The first step is to create a GitHub Workflow. Wait, what is a Github Workflow?    
 Imagine GitHub Workflow as a set of instructions or a series of steps that automate processes in your software development projects on GitHub. These processes can include building your code, running tests, and deploying your application.
@@ -64,6 +64,6 @@ git push
 ## Lab checklist
 
 - [x] Read the instructions
-- [ ] Create folder structure
-- [ ] Create a github workflow
-- [ ] Push the changes and check the pipeline execution in the Actions tab
+- [ ] Create a folder structure `.github/workflows/` where we'll create our first workflow
+- [ ] Create a github workflow called `pipeline.yml`
+- [ ] Push the changes and check the pipeline execution in the Actions tab of your Github repo in the browser

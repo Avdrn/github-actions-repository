@@ -51,6 +51,10 @@ jobs:
 - **_Runs-on_**: is specifying the OS you want your workflow to run on.
 - **_Steps_**: Steps just indicate the various steps you want to run on that job.
 - **_Actions_**: An action is a task or set of procedures that can be executed within a step
+
+GitHub Actions anatomy:
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1649373965048/k3ExcTcW5.png?auto=compress,format&format=webp)
+[Source](https://hungvu.tech/what-is-github-actions-a-not-so-eli5-introduction-in-2022)
   
 ### Let's test our Pipeline
 

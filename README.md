@@ -36,7 +36,7 @@ The **XXX** application is a [React](https://reactjs.org/)-Application bootstrap
 1. Anything you need for this workshop is contained within this repository - so the first thing you need to do is get a copy of it! If you are new to Github, you can learn how to **fork** it and **clone** it [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
 2. Make sure you start by the [prerequisites section](docs/00-prerequisites.md) to make sure that you have everything we need installed
 3. Run and build the React application following the steps in the [local development lab](docs/01-local-development.md)
-4. Create your first pipeline and run your first github action
+4. Get started by creating a set of GitHub Action workflows in order to [test](docs/03-adding-test-to-the-pipeline.md), [release](docs/04-building-and-packaging-the-application.md) and [deploy](docs/05-deploying-to-an-environment.md) the application!
 
 &nbsp; &nbsp; 
 
@@ -44,12 +44,10 @@ The **XXX** application is a [React](https://reactjs.org/)-Application bootstrap
 
 - [Prerequisites](docs/00-prerequisites.md)
 - [Lab 1 - Local development workflow](docs/01-local-development.md)
-- [Lab 2 - Creating a hello world pipeline](docs/02-creating-hello-world-pipeline.md)
+- [Lab 2 - Running your first Github Action to create a CI/CD pipeline](docs/02-running-your-first-github-action.md)
 - [Lab 3 - Continuous integration: Testing the application](docs/03-adding-test-to-the-pipeline.md)
 - [Lab 4 - Continuous integration: Building and packaging the application](docs/04-building-and-packaging-the-application.md)
 - [Lab 5 - Continuous delivery: Deploying the application to an environment](docs/05-deploying-to-an-environment.md)
-- [Lab 6 - Continuous delivery: Adding a smoke test](docs/06-adding-a-smoke-test.md)
-
 
 &nbsp; &nbsp; 
 

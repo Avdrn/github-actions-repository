@@ -1,6 +1,6 @@
-## Lab 5: Deployment with Firebase via Github Actions
+# Lab 5: Deployment with Firebase via Github Actions
 
-### 5.1 Add Firebase setup:
+## Add Firebase setup:
 
 #### Steps:
 - Install the Firebase CLI if you haven’t already by running `npm install -g firebase-tools`    

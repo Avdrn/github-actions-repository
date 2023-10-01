@@ -1,4 +1,4 @@
-# Lab 2: Creating our first pipeline
+# Lab 2: Creating our first G
 
 ### GitHub Actions to create a CI/CD pipeline
 

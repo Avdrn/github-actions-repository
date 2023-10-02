@@ -4,7 +4,7 @@ The goal of this lab is to create the first stage in our CD pipeline, the test s
 
 ## 3.1 - Adding a testing stage to our continuous integration process
 
-First we need to specify which version of Node.js we eill need. We can do that by declaring an environment variable that we can reference later on. Add these lines just before `jobs`
+First we need to specify which version of Node.js we eill need. We can do that by declaring an environment variable that we can reference later on. Add these lines above `jobs`:
 
 ```yml
 env:

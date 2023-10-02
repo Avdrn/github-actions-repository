@@ -66,6 +66,8 @@ is a software development practice where code changes are automatically prepared
 With continuous delivery, every code change is built, tested, and then pushed to a non-production testing or staging environment.
 Continuous delivery automates the entire software release process.
 
+[What are the differences between continuous integration vs. delivery vs. deployment?](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+
 [What is continuous testing?](https://continuousdelivery.com/foundations/test-automation/)
 Continuous testing is the practice of running many different types of tests—both manual and automated—continually throughout the delivery process with the goal of finding problems as soon as possible.
 

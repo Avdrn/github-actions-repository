@@ -63,7 +63,7 @@ Once the changes are commited, the pipeline should run automatically as especifi
 
 ```bash
 git add .
-git commit -m "Add workflow file"
+git commit -m "Create pipeline.yml"
 git push
 ```
 

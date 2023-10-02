@@ -52,7 +52,23 @@ Now check the pipeline execution in the Actions tab. It should look like this:
 
 <img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/5a448c54-004d-48fe-95c3-b5401480c075">
 
+## 3.3 - Break the tests and see the pipeline fail
 
+In the src/App.test.js file, change line 7 by:
+```javascript
+expect(linkElement).not.toBeInTheDocument();
+```
+
+Commit and push the changes:
+```bash
+git add .
+git commit -m "Make the test fail"
+git push
+```
+
+Go back to the pipeline execution in the Actions tab. It should now look like this:
+
+<img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/93d20de8-d1fb-4a1c-9835-81be0a9a1e58">
 
 ## Lab checklist
 

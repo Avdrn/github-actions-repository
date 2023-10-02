@@ -1,6 +1,6 @@
 # Lab 2: Creating our first Github Workflow
 
-### Let's start building a pipeline using Github Actions
+## 2.1 - Building our pipeline workflow from scratch
 
 The goal of this tutorial is to understand the basic use of Github Actions and get familiar with the concepts around it.
 
@@ -57,7 +57,7 @@ GitHub Actions anatomy:
 <img width="900" alt="image" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1649373965048/k3ExcTcW5.png?auto=compress,format&format=webp">     
 [Source](https://hungvu.tech/what-is-github-actions-a-not-so-eli5-introduction-in-2022)
 
-### Let's test our Pipeline
+## 2.2 - Let's test our pipeline
 
 Once the changes are commited, the pipeline should run automatically as especified to run on push:
 

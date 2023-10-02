@@ -50,11 +50,12 @@ git push
 
 Now check the pipeline execution in the Actions tab. It should look like this:
 
-<img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/5a448c54-004d-48fe-95c3-b5401480c075">
+<img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/5f4c5004-6455-4107-9747-e705e1493685">
+
+It seems that our test is failing!
 
 ## 3.3 - Fix the tests and see the pipeline pass
 
-The pipeline failed because one of our tests was failing!
 In the src/App.test.js file, change line 7 by:
 ```javascript
 expect(linkElement).toBeInTheDocument();
@@ -67,9 +68,10 @@ git commit -m "Fix test"
 git push
 ```
 
-Go back to the pipeline execution in the Actions tab. It should now look like this:
+Go back to the pipeline execution in the Actions tab. The pipeline should be back to green:
 
-<img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/93d20de8-d1fb-4a1c-9835-81be0a9a1e58">
+<img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/21e0a02e-ed85-4da1-8314-1401904986b8">
+
 
 ## Lab checklist
 

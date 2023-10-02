@@ -66,6 +66,12 @@ is a software development practice where code changes are automatically prepared
 With continuous delivery, every code change is built, tested, and then pushed to a non-production testing or staging environment.
 Continuous delivery automates the entire software release process.
 
+[What is continuous testing?](https://continuousdelivery.com/foundations/test-automation/)
+Continuous testing is the practice of running many different types of tests—both manual and automated—continually throughout the delivery process with the goal of finding problems as soon as possible.
+
+[What is test automation?](https://www.atlassian.com/devops/devops-tools/test-automation)
+Test automation is the practices of automating test tasks to make sure the application is ready to be deployed and it meets the pre-defined quality standards.
+
 [What is Github Actions?](https://resources.github.com/downloads/What-is-GitHub.Actions_.Benefits-and-examples.pdf)
 GitHub Actions brings automation directly into the software development lifecycle on GitHub via event-driven triggers. These
 triggers are specified events that can range from creating a pull request to building a new brand in a repository.

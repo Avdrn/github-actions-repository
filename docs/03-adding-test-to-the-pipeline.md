@@ -52,17 +52,18 @@ Now check the pipeline execution in the Actions tab. It should look like this:
 
 <img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/5a448c54-004d-48fe-95c3-b5401480c075">
 
-## 3.3 - Break the tests and see the pipeline fail
+## 3.3 - Fix the tests and see the pipeline pass
 
+The pipeline failed because one of our tests was failing!
 In the src/App.test.js file, change line 7 by:
 ```javascript
-expect(linkElement).not.toBeInTheDocument();
+expect(linkElement).toBeInTheDocument();
 ```
 
 Commit and push the changes:
 ```bash
 git add .
-git commit -m "Make the test fail"
+git commit -m "Fix test"
 git push
 ```
 
@@ -75,4 +76,4 @@ Go back to the pipeline execution in the Actions tab. It should now look like th
 - [x] Read the instructions
 - [ ] Replace the hello world job with the new test job
 - [ ] Push the changes and check the pipeline execution in the Actions tab
-- [ ] Break the tests, commit and push the changes. Check what happens.
+- [ ] Fix the test, commit and push the changes. Check what happens.

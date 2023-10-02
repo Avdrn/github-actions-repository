@@ -1,6 +1,6 @@
 # Lab 1: Local development workflow
 
-## 1.1 Installing the application dependencies
+## 1.1 - Installing the application dependencies
 Once you've forked and cloned this repository, you can navigate to the application on your computer:
 ```sh
 cd ~/<path-where-you-cloned-the-repo>/github-actions-codewomen-workshop
@@ -10,7 +10,7 @@ cd ~/<path-where-you-cloned-the-repo>/github-actions-codewomen-workshop
 npm install
 ```
 
-## 1.2 Let's try our local development workflow
+## 1.2 - Let's try our local development workflow
 
 [NPM](https://docs.npmjs.com/about-npm), which we'll use in this tutorial as our build tool, allows you to define automated build tasks in the package.json file.   
 In this file you can see some build tasks already defined:

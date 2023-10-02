@@ -50,7 +50,8 @@ git push
 
 Now check the pipeline execution in the Actions tab. It should look like this:
 
-<img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/0a81f007-12fc-4362-93b7-ff98063bac13">
+<img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/5a448c54-004d-48fe-95c3-b5401480c075">
+
 
 
 ## Lab checklist

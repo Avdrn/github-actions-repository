@@ -1,6 +1,6 @@
 # Lab 2: Creating our first Github Workflow
 
-### Let's build a 'hello-world' pipeline using Github Actions
+### Let's start building a pipeline using Github Actions
 
 The goal of this tutorial is to understand the basic use of Github Actions and get familiar with the concepts around it.
 
@@ -42,6 +42,7 @@ jobs:
       - name: Hello World step
         run: echo "Hello World!"
 ```
+As you can see, this pipeline will be doing only one thing at the moment: running a "hello world" action which will print "Hello World!" inside the pipeline UI.
 
 ### Pipeline Core Concepts
 
@@ -53,9 +54,9 @@ jobs:
 - **_Actions_**: An action is a task or set of procedures that can be executed within a step
 
 GitHub Actions anatomy:
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1649373965048/k3ExcTcW5.png?auto=compress,format&format=webp)
+<img width="900" alt="image" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1649373965048/k3ExcTcW5.png?auto=compress,format&format=webp">     
 [Source](https://hungvu.tech/what-is-github-actions-a-not-so-eli5-introduction-in-2022)
-  
+
 ### Let's test our Pipeline
 
 Once the changes are commited, the pipeline should run automatically as especified to run on push:
@@ -68,6 +69,7 @@ git push
 
 Now open you Github repo in the browser, click on the Actions tab and check the pipeline execution. It should look like this:
 
+<img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/f5f33c11-3806-431e-93fe-db383ef80739">
 
 ## Lab checklist
 

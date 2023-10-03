@@ -16,7 +16,7 @@ You don't need to have any previous experience in CI/CD but basic knowledge of G
 
 ## About the application
 
-The **XXX** application is a [React](https://reactjs.org/)-Application bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and tested with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
+This application is a [React](https://reactjs.org/)-Application bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and tested with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
 #### Useful commands to build and run the application:
 
@@ -37,8 +37,7 @@ The **XXX** application is a [React](https://reactjs.org/)-Application bootstrap
 2. Make sure you start by the [Prerequisites section](docs/00-prerequisites.md) to make sure that you have everything we need installed
 3. Run and build the React application following the instructions to [setup your application locally](docs/01-local-development.md) (lab 1)
 4. Understand the basic use of GitHub Actions by [creating your first pipeline](docs/02-creating-your-first-github-workflow.md) (lab 2)
-5. Continue by creating a set of GitHub Actions workflows in order to [test](docs/03-adding-test-to-the-pipeline.md) (lab3), [release](docs/04-building-and-packaging-the-application.md) (lab 4) and [deploy](docs/05-deploying-to-an-environment.md) (lab 5) the application!
-
+5. Continue by creating a set of GitHub Actions workflows in order to [test](docs/03-adding-test-to-the-pipeline.md) (lab3), [release](docs/04-building-and-packaging-the-application.md) (lab 4) and [deploy](docs/05-deploying-to-an-environment.md) (lab 5) the application with Firebase!
 
 ### Labs: 
 These are the steps you can follow to complete this workshop (order is important):
@@ -48,9 +47,10 @@ These are the steps you can follow to complete this workshop (order is important
 - [Lab 2 - Creating a hello-world pipeline](docs/02-creating-your-first-github-workflow.md)
 - [Lab 3 - Continuous integration: Testing the application](docs/03-adding-test-to-the-pipeline.md)
 - [Lab 4 - Continuous integration: Building and packaging the application](docs/04-building-and-packaging-the-application.md)
-- [Lab 5 - Continuous delivery: Deploying the application to an environment](docs/05-deploying-to-an-environment.md)
+- [Lab 5 - Continuous delivery: Deploying the application to Firebase](docs/05-deploying-to-an-environment.md)
 
 
+<img width="700" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/4d28788d-a126-4c5a-b0b5-c326721ee9c5">
 &nbsp; &nbsp; 
 
 ## Useful Theory

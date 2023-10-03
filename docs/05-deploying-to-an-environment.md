@@ -91,14 +91,15 @@ git push
 - Run `firebase login:ci` in the terminal and login with your previous created Firebase account
 - Copy token that appears in your console output
 
-Next we need to setup firebase in the project folder:   
-- run the `firebase init` command from your project’s root. It will show you the prompt and you need to select:
-  -- Hosting: “Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys”
-  -- “use an existing project” and choose the Firebase project you created in the previous step
-  -- agree with database.rules.json being created
-  -- choose "build" as the public directory
-  -- select no to the question rewrite all the urls
-  -- select no for all the other questions
+Next we need to setup firebase in the project folder: run the `firebase init` command from your project’s root. It will show you the prompt and you need to select:
+- Hosting: “Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys”
+- “use an existing project” and choose the Firebase project you created in the previous step
+- agree with database.rules.json being created
+- choose "build" as the public directory
+- select no to the question rewrite all the urls
+  select no for all the other questions
+  
+<img width="500" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/fbea7d5c-c238-4679-aff1-1270c5d6beac">
 
 Now you should see the new file called `firebase.json` with some settings, as well as the `.firebaserc` file in the root folder of our project.
 
@@ -111,7 +112,7 @@ git push
 
 ### Adding a deployment stage to our continuous delivery process
 
-Add a new job (or replace the one added in Option 1) that allow us to deploy our app to an environment that we will call production:
+Add a new job (or replace the one added in Option 1) that will allow us to deploy our app to an environment that we will call production:
 
 ```yaml
 jobs:
@@ -163,7 +164,7 @@ Re-run the failed job and see the pipeline pass!
 
 Now you can open the url that appears in the pipeline to see your app running in production. Et voilà!
 
-![image](https://github.com/caprosset/github-actions-repository/assets/12846321/6d7bb145-1d0f-48d9-b45a-109298cab9ad)
+![image](https://github.com/caprosset/github-actions-repository/assets/12846321/2b516df2-b7fe-492c-b136-a01987502fcc)
 
 
 &nbsp; &nbsp; 

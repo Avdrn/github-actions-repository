@@ -44,7 +44,7 @@ and again the previous one.
 
 ### Adding a deployment stage to our continuous delivery proces
 
-So far so good, we automated our deployment process so that we can run it from our local environment. Next step is to perform the automated deployment as part of the pipeline. Lets add a new job that allow us to deploy our modern web app to an environment that we will call production. Lets add a new job:
+So far so good, we automated our deployment process so that we can run it from our local environment. Next step is to perform the automated deployment as part of the pipeline. Lets add a new job that allow us to deploy our app to an environment that we will call production. Lets add a new job:
 
 ```yaml
 jobs:
@@ -72,7 +72,7 @@ jobs:
 
 ### Let's test our new pipeline stage
 
-Once the changes are commited and pushed, the pipeline should run automatically as it is especified to run on push.
+Once the changes are commited and pushed, the pipeline should run automatically, as it is especified to run on push.
 
 ```bash
 git add .
@@ -111,7 +111,7 @@ git push
 
 ### Adding a deployment stage to our continuous delivery process
 
-Lets add a new job that allow us to deploy our app to an environment that we will call production:
+Add a new job (or replace the one added in Option 1) that allow us to deploy our app to an environment that we will call production:
 
 ```yaml
 jobs:
@@ -150,7 +150,7 @@ git commit -m "Add Firebase deployment stage to the CI/CD pipeline"
 git push
 ```
 
-The pipeline should now fail because of missing Firebase token. Let's fix it!
+The pipeline should fail because of missing Firebase token. Let's fix it!
 In the repo settings, go to 'Secrets and variables' > 'Actions' and create a new repository secret. Call it `firebase token` and paste the token value that you got during the Firebase setup. Click 'add secret'.
 
 <img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/78021ed9-400f-41f7-9aee-c5cd717f577d">

@@ -111,7 +111,7 @@ git push
 
 ### Adding a deployment stage to our continuous delivery process
 
-Lets add a new job that allow us to deploy our app to an environment that we will call production.
+Lets add a new job that allow us to deploy our app to an environment that we will call production:
 
 ```yaml
 jobs:
@@ -121,7 +121,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+    - name: Checkout code
         uses: actions/checkout@v2
       - name: Deploy with Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v1

@@ -161,6 +161,10 @@ Re-run the failed job and see the pipeline pass!
 
 <img width="332" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/4825c4f6-f518-47ab-8c84-17a755090beb">
 
+Now you can open the url that appears in the pipeline to see your app running in production. Et voilà!
+
+![image](https://github.com/caprosset/github-actions-repository/assets/12846321/6d7bb145-1d0f-48d9-b45a-109298cab9ad)
+
 
 &nbsp; &nbsp; 
 

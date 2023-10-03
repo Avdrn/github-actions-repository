@@ -92,13 +92,13 @@ git push
 - Copy token that appears in your console output
 
 Next we need to setup firebase in the project folder:   
-- run the `firebase init` command from your project’s root. It will show you the prompt and you need to select:     
--- Hosting: “Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys”
--- “use an existing project” and choose the Firebase project you created in the previous step
--- agree with database.rules.json being created
--- choose "build" as the public directory     
--- select no to the question rewrite all the urls
--- select no for all the other questions
+- run the `firebase init` command from your project’s root. It will show you the prompt and you need to select:
+  -- Hosting: “Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys”
+  -- “use an existing project” and choose the Firebase project you created in the previous step
+  -- agree with database.rules.json being created
+  -- choose "build" as the public directory
+  -- select no to the question rewrite all the urls
+  -- select no for all the other questions
 
 Now you should see the new file called `firebase.json` with some settings, as well as the `.firebaserc` file in the root folder of our project.
 

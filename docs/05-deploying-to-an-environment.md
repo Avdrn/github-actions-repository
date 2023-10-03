@@ -87,8 +87,8 @@ git push
 ### First, add Firebase setup:
 
 - Install the Firebase CLI if you haven’t already by running `npm install -g firebase-tools`    
-- Sign up for a Firebase account and create a new project.     
-- Run `firebase login:ci` and login with your previous created Firebase account.
+- [Sign up](https://console.firebase.google.com/) for a Firebase account and create a new project     
+- Run `firebase login:ci` in the terminal and login with your previous created Firebase account
 - Copy token that appears in your console output
 
 Next we need to setup firebase in the project folder:   

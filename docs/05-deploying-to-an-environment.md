@@ -157,7 +157,10 @@ In the repo settings, go to 'Secrets and variables' > 'Actions' and create a new
 
 <img width="900" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/b0b644f5-674d-449e-b88f-a0fe6a833b2e">
 
-Commit the changes and see the pipeline pass!
+Re-run the failed job and see the pipeline pass!
+
+<img width="332" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/4825c4f6-f518-47ab-8c84-17a755090beb">
+
 
 &nbsp; &nbsp; 
 

@@ -29,11 +29,18 @@ Let's start by adding a new build tasks to our package.json file. This task auto
 },
 ```
 
-We added a new npm task, deploy:simulate, that calls a script that simulates a deployment and tells when the deployment is completed. Let's try to execute the automated deployment process locally and see what happens.
+We added a new npm task, deploy:simulate, that calls a script that simulates a deployment and tells when the deployment is completed.     
+Let's try to execute the automated deployment process locally and see what happens. 
 
 ```bash
 npm run deploy:simulate -- production
 ```
+
+If you get error "sh: scripts/simulate-deployment.sh: Permission denied", run the following command in the terminal:
+```bash
+chmod +x scripts/simulate-deployment.sh 
+```
+and again the previous one.
 
 ### Adding a deployment stage to our continuous delivery proces
 
@@ -57,7 +64,7 @@ jobs:
           uses: actions/download-artifact@v3
           with:
             name: react-app-${{ github.sha }}
-            path: artifact_to_deploy
+            path: build
         - name: Deploy to prod environment
           run: |
            npm run deploy:simulate -- production
@@ -83,12 +90,24 @@ git push
 - Sign up for a Firebase account and create a new project.     
 - Run `firebase login:ci` and login with your previous created Firebase account.
 - Copy token that appears in your console output
-- Setup firebase in the project folder  run the `firebase init` command from your project’s root. It will show you the prompt and you need to select:     
--- Hosting: "Configure and deploy Firebase Hosting sites"    
+
+Next we need to setup firebase in the project folder:   
+- run the `firebase init` command from your project’s root. It will show you the prompt and you need to select:     
+-- Hosting: “Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys”
 -- “use an existing project” and choose the Firebase project you created in the previous step
 -- agree with database.rules.json being created
 -- choose "build" as the public directory     
--- agree to Configure as a single-page app by replying with y
+-- select no to the question rewrite all the urls
+-- select no for all the other questions
+
+Now you should see the new file called `firebase.json` with some settings, as well as the `.firebaserc` file in the root folder of our project.
+
+Commit and git push:
+```bash
+git add .
+git commit -m "Add firebase setup"
+git push
+```
 
 ### Adding a deployment stage to our continuous delivery process
 
@@ -112,7 +131,7 @@ jobs:
           uses: actions/download-artifact@v3
           with:
             name: react-app-${{ github.sha }}
-            path: artifact_to_deploy
+            path: build
       - name: Deploy to prod environment on Firebase
         uses: w9jds/firebase-action@master
         with:

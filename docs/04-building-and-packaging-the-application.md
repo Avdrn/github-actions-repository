@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
          name: react-app-v${{ github.sha }}
-         path: build/
+         path: build
 ```
 
 As you can see, we added a step to build the application and its dependecies with NPM. Finally, we use the upload-artifact Github Action to upload a build artifact that contains the code of the application.

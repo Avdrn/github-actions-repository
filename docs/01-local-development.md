@@ -1,11 +1,7 @@
 # Lab 1: Local development workflow
 
 ## 1.1 - Installing the application dependencies
-Once you've forked and cloned this repository, you can navigate to the application on your computer:
-```sh
-cd ~/<path-where-you-cloned-the-repo>/github-actions-codewomen-workshop
-```
- and install all project dependencies using:
+Once you've forked and cloned this repository on your computer, navigate to the root directory of the application and install all project dependencies using:
 ```sh
 npm install
 ```

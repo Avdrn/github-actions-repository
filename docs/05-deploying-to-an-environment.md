@@ -11,7 +11,7 @@ Think about it, when do the latest code changes start delivering value? Is it wh
 This stage of the pipeline is a bit more complicated. So far we were running commands only in the Github Actions worker machines. To automate a deployment we need to trigger an action in an external service, the one providing the deployment environment. We need to authenticate with the service where we will deploy our app.
 
 For the scope of this tutorial, we will use Firebase (a hosting service provided by Google). You can think of Firebase like a free server where you can expose your app to real users.    
-If you don't have a Firebase account, it is fine! No worries. You can go for [option 1]() in this lab where we simulate a deployment.
+If you don't have a Firebase account, it is fine! No worries. You can go for [option 1](#51---option-1-lets-simulate-a-deployment) in this lab where we simulate a deployment.
 
 > "Deploy the same way to every environment—including development. This way, we test the deployment process many, many times before it gets to production, and again, we can eliminate it as the source of any problems." -- by [continuousdelivery.com](https://continuousdelivery.com/implementing/patterns/)
 

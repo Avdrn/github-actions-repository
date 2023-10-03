@@ -62,8 +62,11 @@ jobs:
       - name: Download build artifact
         uses: actions/download-artifact@v3
         with:
-          name: react-app-v${{ github.sha }}
+          name: react-app-${{ github.sha }}
           path: build
-      - name: Deploy to prod environment
-        run: |
-         npm run deploy:simulate -- production
+      - name: Deploy to prod environment on Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

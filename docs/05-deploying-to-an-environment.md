@@ -42,7 +42,7 @@ chmod +x scripts/simulate-deployment.sh
 ```
 and again the previous one.
 
-### Adding a deployment stage to our continuous delivery proces
+### Adding a deployment stage to our continuous delivery process
 
 So far so good, we automated our deployment process so that we can run it from our local environment. Next step is to perform the automated deployment as part of the pipeline. Lets add a new job that allow us to deploy our app to an environment that we will call production. Lets add a new job:
 

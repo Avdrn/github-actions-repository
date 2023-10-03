@@ -63,7 +63,7 @@ jobs:
         - name: Download build artifact
           uses: actions/download-artifact@v3
           with:
-            name: react-app-${{ github.sha }}
+            name: react-app-v${{ github.sha }}
             path: build
         - name: Deploy to prod environment
           run: |

@@ -29,7 +29,7 @@ Let's start by adding a new build tasks to our package.json file. This task auto
 },
 ```
 
-We added a new npm task, deploy:simulate, that calls a script that simulates a deployment and tells when the deployment is completed.     
+We added a new npm task, `deploy:simulate`, that calls a script that simulates a deployment and tells when the deployment is completed.     
 Let's try to execute the automated deployment process locally and see what happens. 
 
 ```bash

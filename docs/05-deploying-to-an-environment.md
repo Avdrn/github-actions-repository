@@ -127,11 +127,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ env.NODE_VERSION }}
-        - name: Download build artifact
-          uses: actions/download-artifact@v3
-          with:
-            name: react-app-${{ github.sha }}
-            path: build
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: react-app-${{ github.sha }}
+          path: build
       - name: Deploy to prod environment on Firebase
         uses: w9jds/firebase-action@master
         with:

@@ -28,6 +28,10 @@ Now we create a workflow inside the workflows folder:
 ```
 touch pipeline.yml
 ```
+and for windowns user :
+```
+echo "Your YAML content here" > pipeline.yml
+```
 
 The next step is to add the pipeline definition in the file we just created:
 

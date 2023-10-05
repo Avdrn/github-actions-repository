@@ -40,7 +40,7 @@ name: CI/CD Pipeline
 
 on: push
 jobs:
-  hello-world:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World step

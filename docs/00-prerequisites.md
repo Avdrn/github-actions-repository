@@ -35,7 +35,7 @@ npm -v
 
 ### 2. Git and Github 
 
-As you can imagine from the title of the event, we will be playing with a special feature of GitHub called [GitHub Actions](https://github.com/features/actions).
+As you can imagine at this point of the workshop, we will be playing with a special feature of GitHub called [GitHub Actions](https://github.com/features/actions).
 
 
 #### 2.1 - Have `git` installed on your computer

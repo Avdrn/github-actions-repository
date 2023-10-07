@@ -43,7 +43,7 @@ jobs:
           name: react-app-v${{ github.sha }}
           path: build
   deploy-prod:
-      name: Deploy to prod real
+      name: Deploy to prod
       needs: build
       runs-on: ubuntu-latest
       steps:
